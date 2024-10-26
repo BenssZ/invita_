@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
     font-family: 'Georgia', serif;
-    font-weight: 300; /* Ajusta el peso a un valor más delgado */
+    font-weight: 200; /* Ajusta el peso a un valor más delgado */
     color: #5a5a5a;
     margin: 0;
     padding: 0;
@@ -294,21 +294,17 @@ audio {
 }
 .corner-image {
     position: absolute;
-    width: 200px; /* Ajusta el tamaño según tus necesidades */
+    width: 450px; /* Ajusta el tamaño según tus necesidades */
     height: auto;
 }
 
 .corner-left {
-    top: 10px; /* Ajusta el valor para posicionar */
-    left: 10px;
+    top: 0.1px; /* Ajusta el valor para posicionar */
+    left: 0.1px;
 }
 
 .corner-right {
-    top: 10px;
-    right: 10px;
+    top: 0.1px;
+    right: 0.1px;
 }
-.oculto {
-    opacity: 0; /* Hacer el formulario invisible */
-    position: absolute; /* Evitar que ocupe espacio */
-    pointer-events: auto; /* Permitir la interacción */
-}
+
