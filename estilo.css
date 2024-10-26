@@ -294,7 +294,7 @@ audio {
 }
 .corner-image {
     position: absolute;
-    width: 450px; /* Ajusta el tamaño según tus necesidades */
+    width: 250px; /* Ajusta el tamaño según tus necesidades */
     height: auto;
 }
 
